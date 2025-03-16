@@ -1,1 +1,5 @@
-<h1>chat</h1>
+<script>
+	import Container from '$lib/widgets/layout/ui/container.svelte';
+</script>
+
+<Container>chat</Container>
