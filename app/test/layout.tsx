@@ -3,5 +3,5 @@ export default function TestLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <div className="max-w-md mx-auto">{children}</div>;
+  return <div className="max-w-lg mx-auto shadow-2xl">{children}</div>;
 }

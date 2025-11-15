@@ -19,8 +19,8 @@ export default function TestPage() {
     <ToastProvider>
       <div className="min-h-screen bg-background">
         {/* Header */}
-        <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-          <div className="max-w-lg mx-auto flex h-16 items-center px-4">
+        <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+          <div className="flex h-16 items-center px-4">
             <h1 className="text-2xl font-bold">🎨 UI 컴포넌트 데모</h1>
           </div>
         </header>
@@ -172,7 +172,7 @@ export default function TestPage() {
         </main>
 
         {/* Footer */}
-        <footer className="border-t py-8 mt-16">
+        <footer className="border-t border-gray-200 py-8 mt-16">
           <div className="max-w-lg mx-auto px-4 text-center text-sm text-muted-foreground">
             <p>Moaring Design System © 2025</p>
           </div>

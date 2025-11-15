@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "tailwind-scrollbar-hide/v4";
 
 :root {
   --background: oklch(1 0 0);
@@ -64,11 +65,11 @@
   --match-peer: oklch(0.6583 0.1875 249.7891); /* 또래 친구 - Blue */
   --match-peer-foreground: oklch(0.9848 0 0);
   --match-peer-light: oklch(0.9325 0.0546 247.6038);
-  
+
   --match-local: oklch(0.6811 0.1613 155.3658); /* 동네 친구 - Green */
   --match-local-foreground: oklch(0.9848 0 0);
   --match-local-light: oklch(0.9389 0.0547 156.4938);
-  
+
   --match-romance: oklch(0.6745 0.1813 328.3634); /* 이성 친구 - Pink/Purple */
   --match-romance-foreground: oklch(0.9848 0 0);
   --match-romance-light: oklch(0.9385 0.0613 326.8746);
@@ -215,11 +216,11 @@
   --match-peer: oklch(0.5896 0.1789 252.4158); /* 또래 친구 - Blue */
   --match-peer-foreground: oklch(0.9848 0 0);
   --match-peer-light: oklch(0.3247 0.0789 250.1245);
-  
+
   --match-local: oklch(0.6121 0.1534 157.8934); /* 동네 친구 - Green */
   --match-local-foreground: oklch(0.9848 0 0);
   --match-local-light: oklch(0.3389 0.0734 155.9384);
-  
+
   --match-romance: oklch(0.6234 0.1698 331.2847); /* 이성 친구 - Pink/Purple */
   --match-romance-foreground: oklch(0.9848 0 0);
   --match-romance-light: oklch(0.3512 0.0867 328.4567);
